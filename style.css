@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+
+    background-image: url('images01/wall.jpg');
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+
+header{
+	width: 100%
+	height: 100vh;
+
+
+
+	
+}
+
+.mainheader{
+	width: 100%;
+	height:100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+
+.mainheader .logo img{
+width: : 200px; height: 128px;
+padding-right: 0px;
+padding-top: 20px;
+padding-left: 30px;
+
+}
+.mainheader nav{
+	width: 450px;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+
+}
+ .mainheader nav a{
+ 	text-decoration: none;
+ 	color: #00b894;
+ 	text-transform: uppercase;
+ 	justify-content: space-between;
+ 	letter-spacing: 2px;
+ }
+
+.menubutton {
+	border-color:: blue;
+	padding-top: 60px; 
+	padding-left: 40px;
+	padding-bottom: 10px;
+	text-align: none;
+	border-radius: 40px;
+	color: 	#0000FF;
+}
+ 
+ .left-sec{
+	color: white;
+	justify-content: space-around;
+	text-align: center;
+	padding: 60px;
+	font-size: 26px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	text-decoration-line: none;
+	direction: center;
+
+}
+.logo{
+	height: 60px;
+
+	padding: 30px 30;
+}
+
+#btn{
+	border-color: silver; 
+	font-weight: bold;
+	cursor: help;
+	border-radius: 7px;
+	   display: inline-block; 
+        color: white;
+        letter-spacing: 2px; 
+        text-transform: uppercase; 
+        text-decoration: none; 
+        font-size: 1em; 
+        overflow: hidden; 
+    } 
+
+ #btn:hover {
+
+      color: #1b03a3; 
+        background: #39ff14; 
+        box-shadow: 0 0 50px #39ff14;  
+ }
+
+#bt1{
+	color: white;
+
+}
+#bt2{
+	color: white;
+}
+#bt3{
+	color: white;
+}
+#bt4{
+	color: white;
+}
+
+#bt4:hover{
+	color: grey;
+}
+#bt3:hover{
+	color: grey;
+}
+#bt2:hover{
+	color: grey;
+}
+#bt1:hover{
+	color: grey;
+}
+
+
