@@ -5,10 +5,9 @@
     font-family: 'Big Shoulders Stencil Text', cursive;
 
     background-image: url('images01/wall.jpg');
-	background-size: cover;
+	background-size: auto;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-
+   
 
 }
 
