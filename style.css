@@ -1,136 +1,96 @@
 *{
-	margin: 0;
-	padding: 0;
-    box-sizing: border-box;
-    font-family: 'Big Shoulders Stencil Text', cursive;
+	margin: 0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
 
-    background-image: url('images01/wall.jpg');
-	background-size: auto;
-    background-repeat: no-repeat;
-    
-   
+}
 
+body{
+	font-size: 20px;
+	overflow-x: hidden; 
+}
+
+h1{
+	color: white;
 }
 
 header{
-	width: 100%
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('cafe.jpg');
 	height: 100vh;
-
-
-
-	
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.mainheader{
-	width: 100%;
-	height:100px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-
+.clearfix:after{
+content: ".";
+visibility: hidden;
+display: block;
+height: 0px;
+clear: both;	
 }
 
 
-.mainheader .logo img{
-width: : 200px; height: 128px;
-padding-right: 0px;
-padding-top: 20px;
-padding-left: 30px;
 
-}
-.mainheader nav{
-	width: 450px;
-	display: flex;
-	justify-content: space-around;
-	align-content: center;
 
-}
- .mainheader nav a{
- 	text-decoration: none;
- 	color: #00b894;
- 	text-transform: uppercase;
- 	justify-content: space-between;
- 	letter-spacing: 2px;
+
+ .row{
+ 	max-width: 1180px;
+ 	margin: 0 auto;
  }
 
-.menubutton {
-	border-color:: blue;
-	padding-top: 60px; 
-	padding-left: 40px;
-	padding-bottom: 10px;
-	text-align: none;
-	border-radius: 40px;
-	color: 	#0000FF;
-}
+ .logo{
+ 	height: 120px;
+ 	width: auto;
+ 	float: left;
+ 	margin-top: 20px; }
+
+ 	.main-nav{
+ 		float: right;
+ 		margin-top: 60px;
+ 	}
+
+ 	.main-nav li{
+ 		display: inline-block;
+ 		list-style: none;
+ 		margin-left: 51px;
+ 		text-transform: uppercase;
+ 	}	
  
- .left-sec{
-	color: white;
-	justify-content: space-around;
-	text-align: center;
-	padding: 60px;
-	font-size: 26px;
-	margin-bottom: 10px;
-	margin-top: 20px;
-	
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	font-weight: bolder;
-	text-decoration-line: none;
-	direction: center;
 
-}
-.logo{
-	height: 60px;
 
-	padding: 30px 30;
-}
 
-#btn{
-	border-color: silver; 
-	font-weight: bold;
-	cursor: help;
-	border-radius: 7px;
-	   display: inline-block; 
-        color: white;
-        letter-spacing: 2px; 
-        text-transform: uppercase; 
-        text-decoration: none; 
-        font-size: 1em; 
-        overflow: hidden; 
-    } 
 
- #btn:hover {
 
-      color: #1b03a3; 
-        background: #39ff14; 
-        box-shadow: 0 0 50px #39ff14;  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .main-nav li a{
+ 	color: white;
+ 	text-decoration: none;
+ 	text-transform: uppercase;
+ 	font-size: 90%;
+ 	font-weight: 100;
  }
-
-#bt1{
-	color: white;
-
-}
-#bt2{
-	color: white;
-}
-#bt3{
-	color: white;
-}
-#bt4{
-	color: white;
-}
-
-#bt4:hover{
-	color: grey;
-}
-#bt3:hover{
-	color: grey;
-}
-#bt2:hover{
-	color: grey;
-}
-#bt1:hover{
-	color: grey;
-}
-
 
